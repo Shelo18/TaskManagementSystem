@@ -1,0 +1,23 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.userprefs
+
+## Logs
+logs/
+*.log
+
+## EF Core local DB files
+*.mdf
+*.ldf
+
+## Published output
+publish/
+out/
+
+## Secrets (never commit these)
+appsettings.Production.json
+secrets.json
